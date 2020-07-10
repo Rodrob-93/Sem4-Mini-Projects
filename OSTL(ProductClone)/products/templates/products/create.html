@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{{error}}
+<br>
+<br>
+<br>
+<div style="text-align:center">
+  <div style="display:inline-block">
+    <h1>Create</h1>
+    <div style="text-align:left">
+      <form action="{% url 'create' %}" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-group">
+          <label >Title:</label>
+          <input type="text" class="form-control" placeholder="Enter Title" name="title">
+        </div>
+
+        <div class="form-group">
+          <label >Body:</label>
+          <input type="text"  class="form-control" placeholder="Enter Description" name="body">
+        </div>
+
+        <div class="form-group">
+          <label >URL:</label>
+          <input type="text" class="form-control" placeholder="Enter URL" name="url">
+        </div>
+
+        <div>
+          <label >Icon:</label><br>
+          <input type="file" name="icon">
+        </div>
+
+        <div>
+          <label >Image:</label><br>
+          <input type="file" name="image">
+        </div>
+        <br>
+        <div style="text-align:center">
+          <div style="display:inline-block">
+            <button type="submit" class="btn btn-primary">Signup</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

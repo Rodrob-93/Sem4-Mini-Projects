@@ -11,19 +11,20 @@ Understanding the chemical reactions is difficult. We make use of computer graph
 
 ### Implementation:
 #### Components used:
-*7 half-adders: 4 to create the look adder circuit, and 3 to evaluate Si and Pi · Ci
-*3 OR gates to generate the next level carry Ci+1
-*wires to connect
-*LED display to obtain the output
+* 7 half-adders: 4 to create the look adder circuit, and 3 to evaluate Si and Pi · Ci
+* 3 OR gates to generate the next level carry Ci+1
+* wires to connect
+* LED display to obtain the output
 
 #### Pins:
-*A0, A1, A2, A3: Pin No. 8 of each HA3, HA2, HA1, HA0 respectively.
-*B0, B1, B2, B3: Pin No. 5 of each HA3, HA2, HA1, HA0 respectively.
-*B0, B1, B2, B3: Pin No. 4 of each HA0, HA1, HA2, HA3 respectively.
-*Cout : ORed output from Pin No. 1 of HA3 & HA6 respectively.
+* A0, A1, A2, A3: Pin No. 8 of each HA3, HA2, HA1, HA0 respectively.
+* B0, B1, B2, B3: Pin No. 5 of each HA3, HA2, HA1, HA0 respectively.
+* B0, B1, B2, B3: Pin No. 4 of each HA0, HA1, HA2, HA3 respectively.
+* Cout : ORed output from Pin No. 1 of HA3 & HA6 respectively.
 
 #### Simulation:
 
- 
+***
+
 # 3. Operating System:
 A study Time Table solution based on various memory allocation policies.

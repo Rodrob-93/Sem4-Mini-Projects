@@ -1,6 +1,6 @@
 # 1. Computer Graphics Project:
 ### Abstract:
-Understanding the chemical reactions is difficult. We make use of computer graphics knowledge to make it easier by helping students to imagine the correct way, thereby helping them remember those easily. Here, we present you some basic chemical reactions from 11th and 12th.
+    Understanding the chemical reactions is difficult. We make use of computer graphics knowledge to make it easier by helping students to imagine the correct way, thereby helping them remember those easily. Here, we present you some basic chemical reactions from 11th and 12th.
 
 ***
 
@@ -26,5 +26,10 @@ Understanding the chemical reactions is difficult. We make use of computer graph
 
 ***
 
-# 3. Operating System:
-A study Time Table solution based on various memory allocation policies.
+# 3. OSTL:
+    Created a webpage in Django where you can view different product based websites, upvote them and review those websites.
+    
+***
+ 
+# 4. Operating System:
+    A study Time Table solution based on various memory allocation policies.
